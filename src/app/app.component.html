@@ -1,0 +1,25 @@
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+  </style>
+
+<body>
+
+  <div>
+    <h1>HORIZON CONTENT</h1>
+    <h2>TO-DO List</h2>
+
+    <ul>
+      <li *ngFor="let item of items">
+        <input type="checkbox" > {{item}} <button (click)="removeTarefa(item)">Remover</button>
+        <input type="file" name="" id="">
+
+      </li>
+    </ul>
+
+
+    {{tarefa}}
+    <input type="text" [(ngModel)]="tarefa" >
+    <button (click)="addTarefa()">Adicionar</button>
+
+  </div>
+</body>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+div{
+    text-align: center;
+    width: 100%;
+    height: 1080px;
+    background: radial-gradient(rgb(83, 133, 224),rgb(54, 101, 186));
+}
+
+div h2{
+    padding: 50px;
+    color: white;
+    font-weight: normal;
+}
+
+div h1{
+    padding-top: 20px;;
+    color: white;
+    font-weight: lighter;
+}
+
+ul li{
+    padding: 8px 0;
+    color: white;
+    display: block;
+}
+
+input[type='text']{
+    margin-top: 5px;;
+}
+
+input[type:'checkbox']{
+    padding-left: 20px;
+}
+
+input[type:'file']{
+    display: inline-block;
+    padding-left: 10px;
+}
